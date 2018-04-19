@@ -1,6 +1,6 @@
 # finch-bazel
 
-A semi-pointless exercise to build a finch project using [bazel](https://bazel.build/).
+A semi-pointless exercise to build a [finch](https://github.com/finagle/finch/) project using [bazel](https://bazel.build/).
 
 This is almost definitely not the best way to do this but:
 
