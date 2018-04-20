@@ -1,11 +1,5 @@
 # finch-bazel
 
-A semi-pointless exercise to build a [finch](https://github.com/finagle/finch/) project using [bazel](https://bazel.build/).
+An exercise in building a [finch](https://github.com/finagle/finch/) project using [bazel](https://bazel.build/).
 
-This is almost definitely not the best way to do this but:
-
-The WORKSPACE and BUILD deps were generated using [gen_bazel_deps.sh](https://github.com/shockham/finch-bazel/blob/master/gen_bazel_deps.sh) script on the [finch-quickstart](https://github.com/zdavep/finch-quickstart/) project.
-
-The script requires:
-- [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph) (added to the finch-quickstart project plugins)
-- [ripgrep](https://github.com/BurntSushi/ripgrep)
+The WORKSPACE and BUILD deps were generated using [generate_workspace](https://docs.bazel.build/versions/master/generate-workspace.html) from the bazel project.
