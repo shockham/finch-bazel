@@ -1,4 +1,4 @@
-import io.finch._
+import io.finch._, io.finch.syntax._
 import com.twitter.finagle.Http
 import com.twitter.util.Await
 
